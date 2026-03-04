@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.node.json",
+  "compilerOptions": {
+    /* project */
+    "incremental": true,
+    "composite": true,
+    "tsBuildInfoFile": "node_modules/.cache/tsconfig.tsbuildinfo",
+
+    /* typechecking */
+    "allowJs": true,
+    "checkJs": true,
+  },
+  "include": ["./*"]
+}
